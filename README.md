@@ -4,7 +4,7 @@ Project cover UI test cases from https://www.automationexercise.com/test_cases
 
 - Page Object Pattern
 - Page Factory
-- Codding Patterns: Builder, Factory, Singleton
+- Codding Patterns: Builder, Factory
 
 ## Stack
 

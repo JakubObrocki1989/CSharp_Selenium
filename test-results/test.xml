@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2" engine-version="3.19.2.0" clr-version="4.0.30319.42000" start-time="2025-03-19 12:51:22Z" end-time="2025-03-19 12:51:31Z" duration="9.473908">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\jobrocki\source\repos\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.exe --result="../../../test-results/test.xml"]]></command-line>
+  <test-suite type="Assembly" id="1-1002" name="SeleniumProject.exe" fullname="C:\Users\jobrocki\source\repos\SeleniumProject\SeleniumProject\bin\Debug\SeleniumProject.exe" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-03-19T12:51:22.8849291Z" end-time="2025-03-19T12:51:31.9231120Z" duration="9.038387" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="4.3.2.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19045.0" platform="Win32NT" cwd="C:\Users\jobrocki\source\repos\SeleniumProject\SeleniumProject" machine-name="JOBROCKI-LAP" user="jobrocki" user-domain="JOBROCKI-LAP" culture="pl-PL" uiculture="pl-PL" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\jobrocki\source\repos\SeleniumProject\packages\NUnit.ConsoleRunner.3.19.2\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.7.2" />
+      <setting name="NumberOfTestWorkers" value="16" />
+    </settings>
+    <properties>
+      <property name="_PID" value="13652" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1003" name="SeleniumProject" fullname="SeleniumProject" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-03-19T12:51:22.8929289Z" end-time="2025-03-19T12:51:31.9231120Z" duration="9.030277" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="TestSuite" id="1-1004" name="src" fullname="SeleniumProject.src" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-03-19T12:51:22.8929289Z" end-time="2025-03-19T12:51:31.9231120Z" duration="9.030071" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="TestSuite" id="1-1005" name="test" fullname="SeleniumProject.src.test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-03-19T12:51:22.8929289Z" end-time="2025-03-19T12:51:31.9231120Z" duration="9.030058" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-suite type="TestFixture" id="1-1000" name="TestCaseTests" fullname="SeleniumProject.src.test.TestCaseTests" classname="SeleniumProject.src.test.TestCaseTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2025-03-19T12:51:22.8939289Z" end-time="2025-03-19T12:51:31.9231120Z" duration="9.028820" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="AllureContext" value="AllureContext { Containers = [], Fixture = null, Test = null, Steps = [] }" />
+            </properties>
+            <test-case id="1-1001" name="test0001_testCasePageShouldBeOpened" fullname="SeleniumProject.src.test.TestCaseTests.test0001_testCasePageShouldBeOpened" methodname="test0001_testCasePageShouldBeOpened" classname="SeleniumProject.src.test.TestCaseTests" runstate="Runnable" seed="1348262617" result="Passed" start-time="2025-03-19T12:51:23.0289328Z" end-time="2025-03-19T12:51:31.9201108Z" duration="8.891347" asserts="2">
+              <properties>
+                <property name="AllureContext" value="AllureContext { Containers = [SeleniumProject.src.test.TestCaseTests], Fixture = null, Test = null, Steps = [] }" />
+              </properties>
+              <output><![CDATA[Region = Testing
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
